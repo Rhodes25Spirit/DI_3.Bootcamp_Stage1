@@ -1,0 +1,25 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.D-one {
+    background: pink;
+    border: 3px solid blue;
+    padding: 32px;
+    margin: 12px;
+}
+
+.D-two {
+    background: lightblue;
+    border: 3px solid purple;
+    margin-bottom: 48px;
+}
+
+.D-three {
+    background: peachpuff;
+    border: 3px solid brown;
+    width: 200px;
+    padding: 32px;
+    margin-right: auto;
+}

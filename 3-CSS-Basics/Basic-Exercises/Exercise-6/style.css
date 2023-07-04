@@ -1,0 +1,38 @@
+.para1,
+.para2 {
+    color: hsl(0, 100%, 50%);
+}
+
+.para1 {
+    font-size: 22px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+div.text {
+    color: green;
+    font-size: 22px;
+}
+
+
+.para2 {
+    font-size: 14px;
+}
+
+
+#confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+div .child {
+    color: red;
+    font-size: 14px;
+}

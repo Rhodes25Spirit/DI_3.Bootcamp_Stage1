@@ -1,0 +1,26 @@
+* {
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #22d1e0;
+}
+
+#wrap {
+    font-size: 20;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+li::first-letter {
+    font-size: 150%;
+    color: rgb(17, 16, 16);
+}
+
+#intro {
+    margin: 50px;
+}

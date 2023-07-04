@@ -1,0 +1,36 @@
+body {
+
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px dashed rgb(194, 162, 16);
+    cursor: pointer;
+
+}
+
+P {
+    color: rgb(255, 116, 0);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 2px solid;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+#div2 {
+    background: rgb(143, 194, 216);
+}

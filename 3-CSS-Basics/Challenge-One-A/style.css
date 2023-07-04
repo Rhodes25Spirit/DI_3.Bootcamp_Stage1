@@ -1,0 +1,50 @@
+#wrap {
+    font-size: 20;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+li::first-letter {
+    font-size: 150%;
+    font-style: italic;
+    color: rgb(17, 16, 16);
+    text-justify: auto;
+}
+
+#intro {
+    margin: 50px;
+}
+
+table,
+tr,
+th {
+    border: 1px dotted;
+    background-color: rgb(240, 231, 141);
+    width: 75vw;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#parent {
+    height: 400px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+}
