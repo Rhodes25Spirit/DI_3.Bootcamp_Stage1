@@ -166,3 +166,6 @@ h1 {
 
 /* Button:hover
 tous les partie du corps bouge si on survolle le Dance */
+.dance:hover {
+    border-color: 2px solid brown;
+}

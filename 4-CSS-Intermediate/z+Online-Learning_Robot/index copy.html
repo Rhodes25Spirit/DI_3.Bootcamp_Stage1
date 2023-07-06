@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Hover one element, effect for multiple elements?</title>
+    <style type="text/css">
+        .section {
+            background: #ccc;
+        }
+
+        .layer {
+            background: #ddd;
+        }
+
+        .section:hover img {
+            border: 2px solid #333;
+        }
+
+        .section:hover .layer {
+            border: 2px solid #F90;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <img src="images.png" />
+        <div class="layer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium esse debitis quae
+            dolorem facilis earum, nesciunt, possimus dolores autem hic omnis alias voluptatem fuga necessitatibus eos
+            eveniet recusandae deleniti quam. </div>
+    </div>
+</body>
+
+</html>
